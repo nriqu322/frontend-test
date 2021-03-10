@@ -90,6 +90,34 @@ header {
   text-align: center;
 }
 
+.why-us h2 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 60px;
+  margin-bottom: 53px;
+}
+
+.circle-main {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #24404F;
+  margin: auto;
+}
+
+.vector {
+  width: 16px;
+  height: 8.35px;
+}
+
+.vector-down {
+  background: url(vector-down.png);
+}
+
+.vector-up {
+  background: url(vector-up.png);
+}
+
 .sign-up {
   background: rgba(11, 17, 19, 0.36);
 }
