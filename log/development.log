@@ -1270,3 +1270,241 @@ Started GET "/packs/js/application-f826770d917d8a37c1d8.js" for ::1 at 2021-03-1
   
 ActionController::RoutingError (No route matches [GET] "/packs/js/application-f826770d917d8a37c1d8.js"):
   
+Started GET "/" for ::1 at 2021-03-10 10:29:08 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.9ms | Allocations: 568)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 3524)
+Completed 200 OK in 13ms (Views: 10.9ms | Allocations: 3900)
+
+
+Started GET "/packs/js/application-f826770d917d8a37c1d8.js" for ::1 at 2021-03-10 10:29:08 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/application-f826770d917d8a37c1d8.js"):
+  
+Started GET "/" for ::1 at 2021-03-10 10:30:07 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 3.1ms | Allocations: 718)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.5ms | Allocations: 3807)
+Completed 200 OK in 21ms (Views: 18.2ms | Allocations: 4893)
+
+
+Started GET "/packs/js/application-f826770d917d8a37c1d8.js" for ::1 at 2021-03-10 10:30:07 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/application-f826770d917d8a37c1d8.js"):
+  
+Started GET "/" for ::1 at 2021-03-10 10:30:35 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 2.4ms | Allocations: 568)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 37.7ms | Allocations: 11428)
+Completed 200 OK in 42ms (Views: 39.6ms | Allocations: 11804)
+
+
+Started GET "/packs/js/application-f826770d917d8a37c1d8.js" for ::1 at 2021-03-10 10:30:35 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/application-f826770d917d8a37c1d8.js"):
+  
+Started GET "/" for ::1 at 2021-03-10 10:32:48 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 3.0ms | Allocations: 568)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 38.7ms | Allocations: 11415)
+Completed 200 OK in 42ms (Views: 39.9ms | Allocations: 11790)
+
+
+Started GET "/packs/js/application-f826770d917d8a37c1d8.js" for ::1 at 2021-03-10 10:32:49 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/application-f826770d917d8a37c1d8.js"):
+  
+Started GET "/" for ::1 at 2021-03-10 10:35:02 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 2.7ms | Allocations: 718)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 29.8ms | Allocations: 11272)
+Completed 200 OK in 37ms (Views: 33.7ms | Allocations: 12359)
+
+
+Started GET "/packs/js/application-f826770d917d8a37c1d8.js" for ::1 at 2021-03-10 10:35:02 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/application-f826770d917d8a37c1d8.js"):
+  
+Started GET "/" for ::1 at 2021-03-10 10:35:40 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 2.8ms | Allocations: 568)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 32.0ms | Allocations: 11904)
+Completed 200 OK in 36ms (Views: 33.6ms | Allocations: 12280)
+
+
+Started GET "/packs/js/application-f826770d917d8a37c1d8.js" for ::1 at 2021-03-10 10:35:40 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/application-f826770d917d8a37c1d8.js"):
+  
+Started GET "/" for ::1 at 2021-03-10 10:36:07 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 2.8ms | Allocations: 568)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 35.3ms | Allocations: 12327)
+Completed 200 OK in 38ms (Views: 36.7ms | Allocations: 12702)
+
+
+Started GET "/packs/js/application-f826770d917d8a37c1d8.js" for ::1 at 2021-03-10 10:36:07 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/application-f826770d917d8a37c1d8.js"):
+  
+Started GET "/" for ::1 at 2021-03-10 10:37:16 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 2.7ms | Allocations: 570)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 30.4ms | Allocations: 11795)
+Completed 200 OK in 32ms (Views: 31.3ms | Allocations: 12170)
+
+
+Started GET "/packs/js/application-f826770d917d8a37c1d8.js" for ::1 at 2021-03-10 10:37:16 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/application-f826770d917d8a37c1d8.js"):
+  
+Started GET "/" for ::1 at 2021-03-10 10:38:20 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 3.6ms | Allocations: 568)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 33.1ms | Allocations: 11397)
+Completed 200 OK in 36ms (Views: 34.8ms | Allocations: 11772)
+
+
+Started GET "/packs/js/application-f826770d917d8a37c1d8.js" for ::1 at 2021-03-10 10:38:20 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/application-f826770d917d8a37c1d8.js"):
+  
+Started GET "/" for ::1 at 2021-03-10 10:38:34 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 2.0ms | Allocations: 568)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 34.5ms | Allocations: 11400)
+Completed 200 OK in 38ms (Views: 35.9ms | Allocations: 11775)
+
+
+Started GET "/packs/js/application-f826770d917d8a37c1d8.js" for ::1 at 2021-03-10 10:38:34 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/application-f826770d917d8a37c1d8.js"):
+  
+Started GET "/" for ::1 at 2021-03-10 10:38:45 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 2.4ms | Allocations: 568)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 30.7ms | Allocations: 11431)
+Completed 200 OK in 34ms (Views: 31.9ms | Allocations: 11806)
+
+
+Started GET "/packs/js/application-f826770d917d8a37c1d8.js" for ::1 at 2021-03-10 10:38:45 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/application-f826770d917d8a37c1d8.js"):
+  
+Started GET "/" for ::1 at 2021-03-10 10:38:53 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 2.7ms | Allocations: 568)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 33.0ms | Allocations: 11790)
+Completed 200 OK in 36ms (Views: 34.7ms | Allocations: 12165)
+
+
+Started GET "/packs/js/application-f826770d917d8a37c1d8.js" for ::1 at 2021-03-10 10:38:54 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/application-f826770d917d8a37c1d8.js"):
+  
+Started GET "/" for ::1 at 2021-03-10 10:38:59 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.9ms | Allocations: 570)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 3526)
+Completed 200 OK in 13ms (Views: 10.8ms | Allocations: 3902)
+
+
+Started GET "/packs/js/application-f826770d917d8a37c1d8.js" for ::1 at 2021-03-10 10:38:59 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/application-f826770d917d8a37c1d8.js"):
+  
+Started GET "/" for ::1 at 2021-03-10 10:39:10 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 2.9ms | Allocations: 568)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 35.4ms | Allocations: 10948)
+Completed 200 OK in 39ms (Views: 36.5ms | Allocations: 11324)
+
+
+Started GET "/packs/js/application-f826770d917d8a37c1d8.js" for ::1 at 2021-03-10 10:39:10 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/application-f826770d917d8a37c1d8.js"):
+  
+Started GET "/" for ::1 at 2021-03-10 10:49:58 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 3.8ms | Allocations: 718)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.2ms | Allocations: 11755)
+Completed 200 OK in 50ms (Views: 47.8ms | Allocations: 12841)
+
+
+Started GET "/packs/js/application-f826770d917d8a37c1d8.js" for ::1 at 2021-03-10 10:49:58 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/application-f826770d917d8a37c1d8.js"):
+  
+Started GET "/" for ::1 at 2021-03-10 10:51:31 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.7ms | Allocations: 570)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 36.6ms | Allocations: 12341)
+Completed 200 OK in 39ms (Views: 37.6ms | Allocations: 12718)
+
+
+Started GET "/packs/js/application-f826770d917d8a37c1d8.js" for ::1 at 2021-03-10 10:51:31 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/application-f826770d917d8a37c1d8.js"):
+  
+Started GET "/" for ::1 at 2021-03-10 10:51:51 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.8ms | Allocations: 568)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 31.4ms | Allocations: 11438)
+Completed 200 OK in 35ms (Views: 33.2ms | Allocations: 11814)
+
+
+Started GET "/packs/js/application-f826770d917d8a37c1d8.js" for ::1 at 2021-03-10 10:51:51 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/application-f826770d917d8a37c1d8.js"):
+  
