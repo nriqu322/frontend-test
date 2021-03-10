@@ -34,9 +34,11 @@ header {
 }
 
 .hero-img {
+  display: block;
   width: 327px;
   height: 330px;
   border-radius: 32px 32px 0px 0px;
+  margin: 109px auto 0;
 }
 
 .hero {
@@ -78,11 +80,6 @@ header {
 
 .hero button:hover {
   cursor: pointer;
-}
-
-.hero-img {
-  display: block;
-  margin: 109px auto 0;
 }
 
 .why-us {
@@ -129,13 +126,11 @@ header {
 }
 
 .whyus-description {
-  // display: block;
   max-width: 336px;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
   margin: 38.82px auto 80px;
-  // margin-bottom: 80px;
 }
 
 .no-display {
@@ -145,9 +140,45 @@ header {
 .add-margin {
   margin-top: 80px;
 }
-.sign-up {
-  background: rgba(11, 17, 19, 0.36);
-  margin-top: 117px;
+.signup {
+  background: #495664;
+  text-align: center;
+  padding-top: 63px;
+}
+
+.signup-info h2 {
+  width: 268px;
+  height: 77px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 60px;
+  color: #fff;
+  margin: auto;
+}
+
+.signup-info h3 {
+  width: 274px;
+  height: 76px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  margin: 15px auto 0px;
+}
+
+.signup-info button {
+  width: 193px;
+  height: 42px;
+  background: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  background: #0b1113;
+  margin: 53px auto 62px;
+}
+
+.bottom-margin {
+  padding-bottom: 117px;
 }
 
 .last-img {
@@ -155,4 +186,5 @@ header {
   height: 112px;
   background: url(cta_tea_cup_mobile.jpg);
   background-size: contain;
+  background-repeat: no-repeat;
 }
