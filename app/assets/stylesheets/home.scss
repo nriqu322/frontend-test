@@ -112,6 +112,10 @@ header {
   background: url(vector-down.png);
 }
 
+.vector:hover {
+  cursor: pointer;
+}
+
 .vector-up {
   background: url(vector-up.png);
 }
@@ -148,7 +152,6 @@ header {
 }
 
 .signup-info h2 {
-  // max-width: 268px;
   height: 77px;
   font-weight: 500;
   font-size: 40px;
@@ -175,6 +178,10 @@ header {
   color: #fff;
   background: #0b1113;
   margin: 52px auto 62px;
+}
+
+.signup-info button:hover {
+  cursor: pointer;
 }
 
 .bottom-padding {

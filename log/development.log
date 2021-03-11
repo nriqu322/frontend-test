@@ -8122,3 +8122,33 @@ Entrypoint home = js/home-022ed978ffb7bb2159d6.js js/home-022ed978ffb7bb2159d6.j
 Completed 200 OK in 1814ms (Views: 1813.2ms | Allocations: 15111)
 
 
+Started GET "/" for ::1 at 2021-03-11 17:44:31 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.9ms | Allocations: 569)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: a456b45d3fa7fe688d18
+Version: webpack 4.46.0
+Time: 674ms
+Built at: 03/11/2021 5:44:33 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-1942a9ab668c2b5eae21.js    126 KiB  application  [emitted] [immutable]  application
+js/application-1942a9ab668c2b5eae21.js.map    139 KiB  application  [emitted] [dev]        application
+           js/home-022ed978ffb7bb2159d6.js   4.23 KiB         home  [emitted] [immutable]  home
+       js/home-022ed978ffb7bb2159d6.js.map   3.99 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-1942a9ab668c2b5eae21.js js/application-1942a9ab668c2b5eae21.js.map
+Entrypoint home = js/home-022ed978ffb7bb2159d6.js js/home-022ed978ffb7bb2159d6.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 539 bytes {application} [built]
+[./app/javascript/packs/home.js] 385 bytes {home} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 2086.2ms | Allocations: 15693)
+Completed 200 OK in 2088ms (Views: 2087.1ms | Allocations: 16068)
+
+
