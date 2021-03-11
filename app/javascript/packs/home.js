@@ -1,17 +1,10 @@
-function displayItem() {
-  // var element = document.getElementByClassName("whyus-description");
-  console.log('clicked');
-  alert('clicked');
-  // if (element.classList.contains === "no-display") {
-  //   element.classList.remove("no-display");
-  // } else {
-  //   element.classList.add("no-display");
-  // }
-}
-
 document.addEventListener('turbolinks:load', () => {
-  const clickVector = document.getElementById("button-click");
-  clickVector.addEventListener('click', displayItem);
-});
-
-console.log("hola a todos")
+  const clickVector = document.querySelectorAll(".vector");
+  clickVector.forEach(arrow => {
+    arrow.addEventListener('click', function() {
+      arrow.classList.toggle("vector-up");
+      arrow.classList.toggle("marginb-desktop");
+      arrow.nextSibling.nextSibling.classList.toggle("no-display");
+    });
+  })
+})

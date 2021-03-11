@@ -5998,3 +5998,2127 @@ Started GET "/packs/js/application-f826770d917d8a37c1d8.js" for ::1 at 2021-03-1
   
 ActionController::RoutingError (No route matches [GET] "/packs/js/application-f826770d917d8a37c1d8.js"):
   
+Started GET "/" for ::1 at 2021-03-11 13:08:10 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 3.7ms | Allocations: 588)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 3515)
+Completed 200 OK in 13ms (Views: 12.2ms | Allocations: 3891)
+
+
+Started GET "/packs/js/application-f826770d917d8a37c1d8.js" for ::1 at 2021-03-11 13:08:10 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/packs/js/application-f826770d917d8a37c1d8.js"):
+  
+Started GET "/" for ::1 at 2021-03-11 13:26:59 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.7ms | Allocations: 588)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 5a8ddede3f5922f845fa
+Version: webpack 4.46.0
+Time: 1868ms
+Built at: 03/11/2021 1:27:02 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-f826770d917d8a37c1d8.js    125 KiB  application  [emitted] [immutable]  application
+js/application-f826770d917d8a37c1d8.js.map    139 KiB  application  [emitted] [dev]        application
+           js/home-e832da4a640b9b9b0a16.js   4.33 KiB         home  [emitted] [immutable]  home
+       js/home-e832da4a640b9b9b0a16.js.map   4.13 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-f826770d917d8a37c1d8.js js/application-f826770d917d8a37c1d8.js.map
+Entrypoint home = js/home-e832da4a640b9b9b0a16.js js/home-e832da4a640b9b9b0a16.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/home.js] 489 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 3552.7ms | Allocations: 4897)
+Completed 200 OK in 3555ms (Views: 3553.7ms | Allocations: 5273)
+
+
+Started GET "/" for ::1 at 2021-03-11 13:52:45 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 4.9ms | Allocations: 729)
+  Rendered layout layouts/application.html.erb (Duration: 17.9ms | Allocations: 8372)
+Completed 500 Internal Server Error in 25ms (Allocations: 9434)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    12:   </head>
+    13: 
+  
+app/views/layouts/application.html.erb:10
+Started GET "/" for ::1 at 2021-03-11 13:53:29 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.6ms | Allocations: 723)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 929f65992ced36b67d39
+Version: webpack 4.46.0
+Time: 901ms
+Built at: 03/11/2021 1:53:31 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-f826770d917d8a37c1d8.js    125 KiB  application  [emitted] [immutable]  application
+js/application-f826770d917d8a37c1d8.js.map    139 KiB  application  [emitted] [dev]        application
+           js/home-ed175f428007c8a38fce.js   4.33 KiB         home  [emitted] [immutable]  home
+       js/home-ed175f428007c8a38fce.js.map   4.13 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-f826770d917d8a37c1d8.js js/application-f826770d917d8a37c1d8.js.map
+Entrypoint home = js/home-ed175f428007c8a38fce.js js/home-ed175f428007c8a38fce.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/home.js] 491 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 2554.2ms | Allocations: 5110)
+Completed 200 OK in 2559ms (Views: 2556.3ms | Allocations: 6195)
+
+
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (8.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (7.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2021-03-11 20:08:12.630182"], ["updated_at", "2021-03-11 20:08:12.630182"]]
+  [1m[36mTRANSACTION (4.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2021-03-11 14:08:29 -0600
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 351.9ms | Allocations: 24685)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 362.1ms | Allocations: 27957)
+Completed 200 OK in 392ms (Views: 365.7ms | ActiveRecord: 0.0ms | Allocations: 33127)
+
+
+Started GET "/" for ::1 at 2021-03-11 14:08:57 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.2ms | Allocations: 570)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 5949fba82bc9cb972a7c
+Version: webpack 4.46.0
+Time: 817ms
+Built at: 03/11/2021 2:08:59 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-961b154b11e6069e7bbc.js    125 KiB  application  [emitted] [immutable]  application
+js/application-961b154b11e6069e7bbc.js.map    139 KiB  application  [emitted] [dev]        application
+           js/home-ed175f428007c8a38fce.js   4.33 KiB         home  [emitted] [immutable]  home
+       js/home-ed175f428007c8a38fce.js.map   4.13 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-961b154b11e6069e7bbc.js js/application-961b154b11e6069e7bbc.js.map
+Entrypoint home = js/home-ed175f428007c8a38fce.js js/home-ed175f428007c8a38fce.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 531 bytes {application} [built]
+[./app/javascript/packs/home.js] 491 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 2003.1ms | Allocations: 4809)
+Completed 200 OK in 2016ms (Views: 2003.7ms | ActiveRecord: 0.0ms | Allocations: 5192)
+
+
+Started GET "/" for ::1 at 2021-03-11 14:09:26 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 2.0ms | Allocations: 566)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 929f65992ced36b67d39
+Version: webpack 4.46.0
+Time: 593ms
+Built at: 03/11/2021 2:09:27 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-f826770d917d8a37c1d8.js    125 KiB  application  [emitted] [immutable]  application
+js/application-f826770d917d8a37c1d8.js.map    139 KiB  application  [emitted] [dev]        application
+           js/home-ed175f428007c8a38fce.js   4.33 KiB         home  [emitted] [immutable]  home
+       js/home-ed175f428007c8a38fce.js.map   4.13 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-f826770d917d8a37c1d8.js js/application-f826770d917d8a37c1d8.js.map
+Entrypoint home = js/home-ed175f428007c8a38fce.js js/home-ed175f428007c8a38fce.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/home.js] 491 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1599.5ms | Allocations: 4845)
+Completed 200 OK in 1602ms (Views: 1600.5ms | ActiveRecord: 0.0ms | Allocations: 5219)
+
+
+Started GET "/" for ::1 at 2021-03-11 14:10:00 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 2.0ms | Allocations: 570)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 9aed2244224147548bf5
+Version: webpack 4.46.0
+Time: 645ms
+Built at: 03/11/2021 2:10:02 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-f826770d917d8a37c1d8.js    125 KiB  application  [emitted] [immutable]  application
+js/application-f826770d917d8a37c1d8.js.map    139 KiB  application  [emitted] [dev]        application
+           js/home-f4e3cad6178925a338f7.js   4.33 KiB         home  [emitted] [immutable]  home
+       js/home-f4e3cad6178925a338f7.js.map   4.13 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-f826770d917d8a37c1d8.js js/application-f826770d917d8a37c1d8.js.map
+Entrypoint home = js/home-f4e3cad6178925a338f7.js js/home-f4e3cad6178925a338f7.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/home.js] 488 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1594.1ms | Allocations: 4775)
+Completed 200 OK in 1596ms (Views: 1595.1ms | ActiveRecord: 0.0ms | Allocations: 5150)
+
+
+Started GET "/" for ::1 at 2021-03-11 14:10:26 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 771)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 929f65992ced36b67d39
+Version: webpack 4.46.0
+Time: 707ms
+Built at: 03/11/2021 2:10:28 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-f826770d917d8a37c1d8.js    125 KiB  application  [emitted] [immutable]  application
+js/application-f826770d917d8a37c1d8.js.map    139 KiB  application  [emitted] [dev]        application
+           js/home-ed175f428007c8a38fce.js   4.33 KiB         home  [emitted] [immutable]  home
+       js/home-ed175f428007c8a38fce.js.map   4.13 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-f826770d917d8a37c1d8.js js/application-f826770d917d8a37c1d8.js.map
+Entrypoint home = js/home-ed175f428007c8a38fce.js js/home-ed175f428007c8a38fce.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/home.js] 491 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1738.5ms | Allocations: 5224)
+Completed 200 OK in 1744ms (Views: 1742.0ms | ActiveRecord: 0.0ms | Allocations: 6316)
+
+
+Started GET "/" for ::1 at 2021-03-11 14:10:52 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 2.0ms | Allocations: 586)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 5a8ddede3f5922f845fa
+Version: webpack 4.46.0
+Time: 680ms
+Built at: 03/11/2021 2:10:54 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-f826770d917d8a37c1d8.js    125 KiB  application  [emitted] [immutable]  application
+js/application-f826770d917d8a37c1d8.js.map    139 KiB  application  [emitted] [dev]        application
+           js/home-e832da4a640b9b9b0a16.js   4.33 KiB         home  [emitted] [immutable]  home
+       js/home-e832da4a640b9b9b0a16.js.map   4.13 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-f826770d917d8a37c1d8.js js/application-f826770d917d8a37c1d8.js.map
+Entrypoint home = js/home-e832da4a640b9b9b0a16.js js/home-e832da4a640b9b9b0a16.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./app/javascript/packs/home.js] 489 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1633.2ms | Allocations: 4862)
+Completed 200 OK in 1635ms (Views: 1634.3ms | ActiveRecord: 0.0ms | Allocations: 5237)
+
+
+Started GET "/" for ::1 at 2021-03-11 14:11:28 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.8ms | Allocations: 588)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 9c91864b91b62321fe58
+Version: webpack 4.46.0
+Time: 680ms
+Built at: 03/11/2021 2:11:30 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-67c3672da06a3fe440de.js    125 KiB  application  [emitted] [immutable]  application
+js/application-67c3672da06a3fe440de.js.map    139 KiB  application  [emitted] [dev]        application
+           js/home-e832da4a640b9b9b0a16.js   4.33 KiB         home  [emitted] [immutable]  home
+       js/home-e832da4a640b9b9b0a16.js.map   4.13 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-67c3672da06a3fe440de.js js/application-67c3672da06a3fe440de.js.map
+Entrypoint home = js/home-e832da4a640b9b9b0a16.js js/home-e832da4a640b9b9b0a16.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 983 bytes {application} [built]
+[./app/javascript/packs/home.js] 489 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1672.4ms | Allocations: 4802)
+Completed 200 OK in 1674ms (Views: 1673.1ms | ActiveRecord: 0.0ms | Allocations: 5181)
+
+
+Started GET "/" for ::1 at 2021-03-11 14:12:18 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 4.5ms | Allocations: 586)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: e9de5b159a40127ea270
+Version: webpack 4.46.0
+Time: 824ms
+Built at: 03/11/2021 2:12:21 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-aafabcefe77012b07f03.js    126 KiB  application  [emitted] [immutable]  application
+js/application-aafabcefe77012b07f03.js.map    139 KiB  application  [emitted] [dev]        application
+           js/home-e832da4a640b9b9b0a16.js   4.33 KiB         home  [emitted] [immutable]  home
+       js/home-e832da4a640b9b9b0a16.js.map   4.13 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-aafabcefe77012b07f03.js js/application-aafabcefe77012b07f03.js.map
+Entrypoint home = js/home-e832da4a640b9b9b0a16.js js/home-e832da4a640b9b9b0a16.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 539 bytes {application} [built]
+[./app/javascript/packs/home.js] 489 bytes {home} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 2443.0ms | Allocations: 4792)
+Completed 200 OK in 2446ms (Views: 2443.8ms | ActiveRecord: 0.0ms | Allocations: 5166)
+
+
+Started GET "/" for ::1 at 2021-03-11 14:12:54 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 2.1ms | Allocations: 588)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: c22c5d59bd5a8476fcdd
+Version: webpack 4.46.0
+Time: 628ms
+Built at: 03/11/2021 2:12:56 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-aab77256e98b82a9f25b.js    126 KiB  application  [emitted] [immutable]  application
+js/application-aab77256e98b82a9f25b.js.map    139 KiB  application  [emitted] [dev]        application
+           js/home-ed175f428007c8a38fce.js   4.33 KiB         home  [emitted] [immutable]  home
+       js/home-ed175f428007c8a38fce.js.map   4.13 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-aab77256e98b82a9f25b.js js/application-aab77256e98b82a9f25b.js.map
+Entrypoint home = js/home-ed175f428007c8a38fce.js js/home-ed175f428007c8a38fce.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 539 bytes {application} [built]
+[./app/javascript/packs/home.js] 491 bytes {home} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1632.8ms | Allocations: 4793)
+Completed 200 OK in 1635ms (Views: 1633.7ms | ActiveRecord: 0.0ms | Allocations: 5168)
+
+
+Started GET "/" for ::1 at 2021-03-11 14:13:27 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 2.4ms | Allocations: 586)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: aa5cda07a102098f5d09
+Version: webpack 4.46.0
+Time: 595ms
+Built at: 03/11/2021 2:13:28 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-8d59923488837c553cd1.js    126 KiB  application  [emitted] [immutable]  application
+js/application-8d59923488837c553cd1.js.map    139 KiB  application  [emitted] [dev]        application
+           js/home-f4e3cad6178925a338f7.js   4.33 KiB         home  [emitted] [immutable]  home
+       js/home-f4e3cad6178925a338f7.js.map   4.13 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-8d59923488837c553cd1.js js/application-8d59923488837c553cd1.js.map
+Entrypoint home = js/home-f4e3cad6178925a338f7.js js/home-f4e3cad6178925a338f7.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 539 bytes {application} [built]
+[./app/javascript/packs/home.js] 488 bytes {home} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1559.8ms | Allocations: 4863)
+Completed 200 OK in 1562ms (Views: 1560.8ms | ActiveRecord: 0.0ms | Allocations: 5238)
+
+
+Started GET "/" for ::1 at 2021-03-11 14:24:27 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.7ms | Allocations: 729)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 056922680382effc0b04
+Version: webpack 4.46.0
+Time: 664ms
+Built at: 03/11/2021 2:24:29 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-1d960cf102f8c5a3be53.js    129 KiB  application  [emitted] [immutable]  application
+js/application-1d960cf102f8c5a3be53.js.map    139 KiB  application  [emitted] [dev]        application
+           js/home-0678b25dc3d6897c2ddc.js   8.03 KiB         home  [emitted] [immutable]  home
+       js/home-0678b25dc3d6897c2ddc.js.map   3.51 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-1d960cf102f8c5a3be53.js js/application-1d960cf102f8c5a3be53.js.map
+Entrypoint home = js/home-0678b25dc3d6897c2ddc.js js/home-0678b25dc3d6897c2ddc.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 539 bytes {application} [built]
+[./app/javascript/packs/home.js] 4.17 KiB {home} {application} [built] [failed] [1 error]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+ERROR in ./app/javascript/packs/home.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/luis/Documents/Rails/environment/frontend-test/app/javascript/packs/home.js: Missing semicolon (15:54)
+
+  13 |     arrow.classList.remove("vector-up");
+  14 |     arrow.classList.add("vector-down");
+> 15 |   } elsif (arrow.classList.contains === "vector-down") {
+     |                                                       ^
+  16 |     arrow.classList.remove("vector-down");
+  17 |     arrow.classList.add("vector-up");
+  18 |   }
+    at Parser._raise (/home/luis/Documents/Rails/environment/frontend-test/node_modules/@babel/parser/lib/index.js:776:17)
+    at Parser.raiseWithData (/home/luis/Documents/Rails/environment/frontend-test/node_modules/@babel/parser/lib/index.js:769:17)
+    at Parser.raise (/home/luis/Documents/Rails/environment/frontend-test/node_modules/@babel/parser/lib/index.js:737:17)
+    at Parser.semicolon (/home/luis/Documents/Rails/environment/frontend-test/node_modules/@babel/parser/lib/index.js:9668:10)
+    at Parser.parseExpressionStatement (/home/luis/Documents/Rails/environment/frontend-test/node_modules/@babel/parser/lib/index.js:12740:10)
+    at Parser.parseStatementContent (/home/luis/Documents/Rails/environment/frontend-test/node_modules/@babel/parser/lib/index.js:12338:19)
+    at Parser.parseStatement (/home/luis/Documents/Rails/environment/frontend-test/node_modules/@babel/parser/lib/index.js:12202:17)
+    at Parser.parseBlockOrModuleBlockBody (/home/luis/Documents/Rails/environment/frontend-test/node_modules/@babel/parser/lib/index.js:12782:25)
+    at Parser.parseBlockBody (/home/luis/Documents/Rails/environment/frontend-test/node_modules/@babel/parser/lib/index.js:12773:10)
+    at Parser.parseBlock (/home/luis/Documents/Rails/environment/frontend-test/node_modules/@babel/parser/lib/index.js:12757:10)
+    at Parser.parseFunctionBody (/home/luis/Documents/Rails/environment/frontend-test/node_modules/@babel/parser/lib/index.js:11724:24)
+    at Parser.parseFunctionBodyAndFinish (/home/luis/Documents/Rails/environment/frontend-test/node_modules/@babel/parser/lib/index.js:11708:10)
+    at /home/luis/Documents/Rails/environment/frontend-test/node_modules/@babel/parser/lib/index.js:12915:12
+    at Parser.withTopicForbiddingContext (/home/luis/Documents/Rails/environment/frontend-test/node_modules/@babel/parser/lib/index.js:12020:14)
+    at Parser.parseFunction (/home/luis/Documents/Rails/environment/frontend-test/node_modules/@babel/parser/lib/index.js:12914:10)
+    at Parser.parseFunctionStatement (/home/luis/Documents/Rails/environment/frontend-test/node_modules/@babel/parser/lib/index.js:12550:17)
+    at Parser.parseStatementContent (/home/luis/Documents/Rails/environment/frontend-test/node_modules/@babel/parser/lib/index.js:12240:21)
+    at Parser.parseStatement (/home/luis/Documents/Rails/environment/frontend-test/node_modules/@babel/parser/lib/index.js:12202:17)
+    at Parser.parseBlockOrModuleBlockBody (/home/luis/Documents/Rails/environment/frontend-test/node_modules/@babel/parser/lib/index.js:12782:25)
+    at Parser.parseBlockBody (/home/luis/Documents/Rails/environment/frontend-test/node_modules/@babel/parser/lib/index.js:12773:10)
+    at Parser.parseProgram (/home/luis/Documents/Rails/environment/frontend-test/node_modules/@babel/parser/lib/index.js:12137:10)
+    at Parser.parseTopLevel (/home/luis/Documents/Rails/environment/frontend-test/node_modules/@babel/parser/lib/index.js:12128:25)
+    at Parser.parse (/home/luis/Documents/Rails/environment/frontend-test/node_modules/@babel/parser/lib/index.js:13836:10)
+    at parse (/home/luis/Documents/Rails/environment/frontend-test/node_modules/@babel/parser/lib/index.js:13888:38)
+    at parser (/home/luis/Documents/Rails/environment/frontend-test/node_modules/@babel/core/lib/parser/index.js:54:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (/home/luis/Documents/Rails/environment/frontend-test/node_modules/@babel/core/lib/transformation/normalize-file.js:59:38)
+    at normalizeFile.next (<anonymous>)
+    at run (/home/luis/Documents/Rails/environment/frontend-test/node_modules/@babel/core/lib/transformation/index.js:31:50)
+    at run.next (<anonymous>)
+
+  Rendered layout layouts/application.html.erb (Duration: 1639.1ms | Allocations: 5100)
+Completed 200 OK in 1646ms (Views: 1643.6ms | Allocations: 6186)
+
+
+Started GET "/" for ::1 at 2021-03-11 14:27:07 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 568)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 1bc2ceee27f52b563853
+Version: webpack 4.46.0
+Time: 728ms
+Built at: 03/11/2021 2:27:09 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-c2d48e6d36ce13bf3207.js    126 KiB  application  [emitted] [immutable]  application
+js/application-c2d48e6d36ce13bf3207.js.map    140 KiB  application  [emitted] [dev]        application
+           js/home-48519cfedfbd69e13e79.js   4.68 KiB         home  [emitted] [immutable]  home
+       js/home-48519cfedfbd69e13e79.js.map   4.56 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-c2d48e6d36ce13bf3207.js js/application-c2d48e6d36ce13bf3207.js.map
+Entrypoint home = js/home-48519cfedfbd69e13e79.js js/home-48519cfedfbd69e13e79.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 539 bytes {application} [built]
+[./app/javascript/packs/home.js] 845 bytes {home} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1706.7ms | Allocations: 4848)
+Completed 200 OK in 1708ms (Views: 1707.4ms | Allocations: 5228)
+
+
+Started GET "/" for ::1 at 2021-03-11 14:27:13 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.9ms | Allocations: 566)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 3505)
+Completed 200 OK in 9ms (Views: 7.7ms | Allocations: 3879)
+
+
+Started GET "/" for ::1 at 2021-03-11 14:27:40 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.8ms | Allocations: 568)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 46f6f3c6989bc512524d
+Version: webpack 4.46.0
+Time: 680ms
+Built at: 03/11/2021 2:27:41 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-4e4a6907b05c9aefe70b.js    126 KiB  application  [emitted] [immutable]  application
+js/application-4e4a6907b05c9aefe70b.js.map    140 KiB  application  [emitted] [dev]        application
+           js/home-0a45bc2c0bcbc755c26a.js   4.67 KiB         home  [emitted] [immutable]  home
+       js/home-0a45bc2c0bcbc755c26a.js.map   4.56 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-4e4a6907b05c9aefe70b.js js/application-4e4a6907b05c9aefe70b.js.map
+Entrypoint home = js/home-0a45bc2c0bcbc755c26a.js js/home-0a45bc2c0bcbc755c26a.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 539 bytes {application} [built]
+[./app/javascript/packs/home.js] 838 bytes {home} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1650.1ms | Allocations: 4774)
+Completed 200 OK in 1652ms (Views: 1651.2ms | Allocations: 5149)
+
+
+Started GET "/" for ::1 at 2021-03-11 14:28:00 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 5.7ms | Allocations: 566)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 1bc2ceee27f52b563853
+Version: webpack 4.46.0
+Time: 614ms
+Built at: 03/11/2021 2:28:02 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-c2d48e6d36ce13bf3207.js    126 KiB  application  [emitted] [immutable]  application
+js/application-c2d48e6d36ce13bf3207.js.map    140 KiB  application  [emitted] [dev]        application
+           js/home-48519cfedfbd69e13e79.js   4.68 KiB         home  [emitted] [immutable]  home
+       js/home-48519cfedfbd69e13e79.js.map   4.56 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-c2d48e6d36ce13bf3207.js js/application-c2d48e6d36ce13bf3207.js.map
+Entrypoint home = js/home-48519cfedfbd69e13e79.js js/home-48519cfedfbd69e13e79.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 539 bytes {application} [built]
+[./app/javascript/packs/home.js] 845 bytes {home} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1582.1ms | Allocations: 4776)
+Completed 200 OK in 1584ms (Views: 1583.0ms | Allocations: 5151)
+
+
+Started GET "/" for ::1 at 2021-03-11 14:29:22 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.6ms | Allocations: 568)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: efb584a5f4fb1dd3c5a0
+Version: webpack 4.46.0
+Time: 706ms
+Built at: 03/11/2021 2:29:24 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b60f0273bf614c9291b7.js    126 KiB  application  [emitted] [immutable]  application
+js/application-b60f0273bf614c9291b7.js.map    140 KiB  application  [emitted] [dev]        application
+           js/home-622b4f7db7b9268b55dc.js   4.68 KiB         home  [emitted] [immutable]  home
+       js/home-622b4f7db7b9268b55dc.js.map   4.56 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-b60f0273bf614c9291b7.js js/application-b60f0273bf614c9291b7.js.map
+Entrypoint home = js/home-622b4f7db7b9268b55dc.js js/home-622b4f7db7b9268b55dc.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 539 bytes {application} [built]
+[./app/javascript/packs/home.js] 841 bytes {home} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1660.3ms | Allocations: 4844)
+Completed 200 OK in 1663ms (Views: 1661.3ms | Allocations: 5220)
+
+
+Started GET "/" for ::1 at 2021-03-11 14:30:42 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.7ms | Allocations: 771)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: fc2f6150069fdb36ae44
+Version: webpack 4.46.0
+Time: 718ms
+Built at: 03/11/2021 2:30:44 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-122a216e012f5df4f44a.js    126 KiB  application  [emitted] [immutable]  application
+js/application-122a216e012f5df4f44a.js.map    140 KiB  application  [emitted] [dev]        application
+           js/home-35870b26514984d94e91.js   4.68 KiB         home  [emitted] [immutable]  home
+       js/home-35870b26514984d94e91.js.map   4.56 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-122a216e012f5df4f44a.js js/application-122a216e012f5df4f44a.js.map
+Entrypoint home = js/home-35870b26514984d94e91.js js/home-35870b26514984d94e91.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 539 bytes {application} [built]
+[./app/javascript/packs/home.js] 844 bytes {home} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1658.5ms | Allocations: 5151)
+Completed 200 OK in 1665ms (Views: 1663.3ms | Allocations: 6237)
+
+
+Started GET "/" for ::1 at 2021-03-11 14:31:07 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 2.0ms | Allocations: 586)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 020024bbba726a10cfb5
+Version: webpack 4.46.0
+Time: 675ms
+Built at: 03/11/2021 2:31:09 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-bbd2aa79260fa7afd14a.js    126 KiB  application  [emitted] [immutable]  application
+js/application-bbd2aa79260fa7afd14a.js.map    140 KiB  application  [emitted] [dev]        application
+           js/home-9bd7fd448c652a2b68cd.js   4.68 KiB         home  [emitted] [immutable]  home
+       js/home-9bd7fd448c652a2b68cd.js.map   4.56 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-bbd2aa79260fa7afd14a.js js/application-bbd2aa79260fa7afd14a.js.map
+Entrypoint home = js/home-9bd7fd448c652a2b68cd.js js/home-9bd7fd448c652a2b68cd.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 539 bytes {application} [built]
+[./app/javascript/packs/home.js] 847 bytes {home} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1626.3ms | Allocations: 4862)
+Completed 200 OK in 1629ms (Views: 1627.4ms | Allocations: 5237)
+
+
+Started GET "/" for ::1 at 2021-03-11 14:31:30 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 2.3ms | Allocations: 586)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 44838ce805b10042366d
+Version: webpack 4.46.0
+Time: 682ms
+Built at: 03/11/2021 2:31:32 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-9bde20136da082240fef.js    126 KiB  application  [emitted] [immutable]  application
+js/application-9bde20136da082240fef.js.map    140 KiB  application  [emitted] [dev]        application
+           js/home-bd882f6e2355392051d2.js   4.69 KiB         home  [emitted] [immutable]  home
+       js/home-bd882f6e2355392051d2.js.map   4.57 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-9bde20136da082240fef.js js/application-9bde20136da082240fef.js.map
+Entrypoint home = js/home-bd882f6e2355392051d2.js js/home-bd882f6e2355392051d2.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 539 bytes {application} [built]
+[./app/javascript/packs/home.js] 857 bytes {home} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1674.5ms | Allocations: 4792)
+Completed 200 OK in 1676ms (Views: 1675.4ms | Allocations: 5167)
+
+
+Started GET "/" for ::1 at 2021-03-11 14:32:09 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.8ms | Allocations: 590)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: ea1563f526552c15cb50
+Version: webpack 4.46.0
+Time: 667ms
+Built at: 03/11/2021 2:32:11 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-e0d95c77f1c8f16da1d3.js    126 KiB  application  [emitted] [immutable]  application
+js/application-e0d95c77f1c8f16da1d3.js.map    140 KiB  application  [emitted] [dev]        application
+           js/home-dfe30247d68c73a478f2.js   4.67 KiB         home  [emitted] [immutable]  home
+       js/home-dfe30247d68c73a478f2.js.map   4.55 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-e0d95c77f1c8f16da1d3.js js/application-e0d95c77f1c8f16da1d3.js.map
+Entrypoint home = js/home-dfe30247d68c73a478f2.js js/home-dfe30247d68c73a478f2.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 539 bytes {application} [built]
+[./app/javascript/packs/home.js] 839 bytes {home} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1617.4ms | Allocations: 4796)
+Completed 200 OK in 1620ms (Views: 1618.5ms | Allocations: 5171)
+
+
+Started GET "/" for ::1 at 2021-03-11 14:32:50 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 2.2ms | Allocations: 588)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 3529)
+Completed 200 OK in 8ms (Views: 7.6ms | Allocations: 3905)
+
+
+Started GET "/" for ::1 at 2021-03-11 14:33:13 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 2.4ms | Allocations: 588)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: b7d018d1c9cdc5fb2b61
+Version: webpack 4.46.0
+Time: 705ms
+Built at: 03/11/2021 2:33:15 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-e4bbfa9aca0bdac097be.js    126 KiB  application  [emitted] [immutable]  application
+js/application-e4bbfa9aca0bdac097be.js.map    140 KiB  application  [emitted] [dev]        application
+           js/home-b3ae73f14d3d10bf03d1.js   4.71 KiB         home  [emitted] [immutable]  home
+       js/home-b3ae73f14d3d10bf03d1.js.map   4.58 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-e4bbfa9aca0bdac097be.js js/application-e4bbfa9aca0bdac097be.js.map
+Entrypoint home = js/home-b3ae73f14d3d10bf03d1.js js/home-b3ae73f14d3d10bf03d1.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 539 bytes {application} [built]
+[./app/javascript/packs/home.js] 877 bytes {home} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1679.3ms | Allocations: 4794)
+Completed 200 OK in 1681ms (Views: 1680.3ms | Allocations: 5169)
+
+
+Started GET "/" for ::1 at 2021-03-11 14:33:50 -0600
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 16.7ms | Allocations: 3673)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 0529bd5bca9002015c5b
+Version: webpack 4.46.0
+Time: 667ms
+Built at: 03/11/2021 2:33:51 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-f4fcdc1b0c86d8bf53e2.js    126 KiB  application  [emitted] [immutable]  application
+js/application-f4fcdc1b0c86d8bf53e2.js.map    140 KiB  application  [emitted] [dev]        application
+           js/home-03a44481fde24afd17dd.js   4.73 KiB         home  [emitted] [immutable]  home
+       js/home-03a44481fde24afd17dd.js.map    4.6 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-f4fcdc1b0c86d8bf53e2.js js/application-f4fcdc1b0c86d8bf53e2.js.map
+Entrypoint home = js/home-03a44481fde24afd17dd.js js/home-03a44481fde24afd17dd.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 539 bytes {application} [built]
+[./app/javascript/packs/home.js] 897 bytes {home} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1661.9ms | Allocations: 8283)
+Completed 200 OK in 1670ms (Views: 1664.2ms | ActiveRecord: 0.0ms | Allocations: 10866)
+
+
+Started GET "/" for ::1 at 2021-03-11 14:34:16 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 2.0ms | Allocations: 586)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 3526)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 3904)
+
+
+Started GET "/" for ::1 at 2021-03-11 14:34:20 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 586)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 3525)
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.0ms | Allocations: 3900)
+
+
+Started GET "/" for ::1 at 2021-03-11 14:34:49 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.8ms | Allocations: 589)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 5f547abcfbdcc3b5b8dc
+Version: webpack 4.46.0
+Time: 698ms
+Built at: 03/11/2021 2:34:51 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-d0d7a556eaff2423314d.js    126 KiB  application  [emitted] [immutable]  application
+js/application-d0d7a556eaff2423314d.js.map    140 KiB  application  [emitted] [dev]        application
+           js/home-03a44481fde24afd17dd.js   4.73 KiB         home  [emitted] [immutable]  home
+       js/home-03a44481fde24afd17dd.js.map    4.6 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-d0d7a556eaff2423314d.js js/application-d0d7a556eaff2423314d.js.map
+Entrypoint home = js/home-03a44481fde24afd17dd.js js/home-03a44481fde24afd17dd.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.41 KiB {application} [built]
+[./app/javascript/packs/home.js] 897 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1645.4ms | Allocations: 4803)
+Completed 200 OK in 1647ms (Views: 1646.2ms | ActiveRecord: 0.0ms | Allocations: 5177)
+
+
+Started GET "/" for ::1 at 2021-03-11 14:40:44 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 590)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: d5831e13d193ff96f5d0
+Version: webpack 4.46.0
+Time: 685ms
+Built at: 03/11/2021 2:40:46 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-d07df9799333fba768ad.js    126 KiB  application  [emitted] [immutable]  application
+js/application-d07df9799333fba768ad.js.map    140 KiB  application  [emitted] [dev]        application
+           js/home-03a44481fde24afd17dd.js   4.73 KiB         home  [emitted] [immutable]  home
+       js/home-03a44481fde24afd17dd.js.map    4.6 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-d07df9799333fba768ad.js js/application-d07df9799333fba768ad.js.map
+Entrypoint home = js/home-03a44481fde24afd17dd.js js/home-03a44481fde24afd17dd.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.4 KiB {application} [built]
+[./app/javascript/packs/home.js] 897 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1702.0ms | Allocations: 4802)
+Completed 200 OK in 1703ms (Views: 1702.6ms | Allocations: 5176)
+
+
+Started GET "/" for ::1 at 2021-03-11 14:41:08 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 2.4ms | Allocations: 586)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 5f547abcfbdcc3b5b8dc
+Version: webpack 4.46.0
+Time: 605ms
+Built at: 03/11/2021 2:41:09 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-d0d7a556eaff2423314d.js    126 KiB  application  [emitted] [immutable]  application
+js/application-d0d7a556eaff2423314d.js.map    140 KiB  application  [emitted] [dev]        application
+           js/home-03a44481fde24afd17dd.js   4.73 KiB         home  [emitted] [immutable]  home
+       js/home-03a44481fde24afd17dd.js.map    4.6 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-d0d7a556eaff2423314d.js js/application-d0d7a556eaff2423314d.js.map
+Entrypoint home = js/home-03a44481fde24afd17dd.js js/home-03a44481fde24afd17dd.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.41 KiB {application} [built]
+[./app/javascript/packs/home.js] 897 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1577.9ms | Allocations: 4863)
+Completed 200 OK in 1580ms (Views: 1578.8ms | Allocations: 5241)
+
+
+Started GET "/" for ::1 at 2021-03-11 14:41:29 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 2.1ms | Allocations: 586)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 3525)
+Completed 200 OK in 9ms (Views: 7.8ms | Allocations: 3899)
+
+
+Started GET "/" for ::1 at 2021-03-11 14:45:35 -0600
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 17.6ms | Allocations: 3673)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 1d3d99b91628becd65c8
+Version: webpack 4.46.0
+Time: 838ms
+Built at: 03/11/2021 2:45:37 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-d0d7a556eaff2423314d.js    126 KiB  application  [emitted] [immutable]  application
+js/application-d0d7a556eaff2423314d.js.map    140 KiB  application  [emitted] [dev]        application
+           js/home-2ae28ddb7ef80f7d87a3.js   4.68 KiB         home  [emitted] [immutable]  home
+       js/home-2ae28ddb7ef80f7d87a3.js.map   4.57 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-d0d7a556eaff2423314d.js js/application-d0d7a556eaff2423314d.js.map
+Entrypoint home = js/home-2ae28ddb7ef80f7d87a3.js js/home-2ae28ddb7ef80f7d87a3.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.41 KiB {application} [built]
+[./app/javascript/packs/home.js] 849 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 2287.4ms | Allocations: 8283)
+Completed 200 OK in 2296ms (Views: 2289.9ms | ActiveRecord: 0.0ms | Allocations: 10866)
+
+
+Started GET "/" for ::1 at 2021-03-11 14:50:15 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 2.0ms | Allocations: 586)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 90d2c44db1d97d153c2c
+Version: webpack 4.46.0
+Time: 716ms
+Built at: 03/11/2021 2:50:17 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b535c96a2e5d33bd4d48.js    126 KiB  application  [emitted] [immutable]  application
+js/application-b535c96a2e5d33bd4d48.js.map    140 KiB  application  [emitted] [dev]        application
+           js/home-1ce52e0f3bfd26a3c8ae.js   4.67 KiB         home  [emitted] [immutable]  home
+       js/home-1ce52e0f3bfd26a3c8ae.js.map   4.55 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-b535c96a2e5d33bd4d48.js js/application-b535c96a2e5d33bd4d48.js.map
+Entrypoint home = js/home-1ce52e0f3bfd26a3c8ae.js js/home-1ce52e0f3bfd26a3c8ae.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.39 KiB {application} [built]
+[./app/javascript/packs/home.js] 829 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 2074.1ms | Allocations: 30505)
+Completed 200 OK in 2077ms (Views: 2075.3ms | ActiveRecord: 0.0ms | Allocations: 30880)
+
+
+Started GET "/" for ::1 at 2021-03-11 14:51:34 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 589)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 93e7e478bff3e1b36481
+Version: webpack 4.46.0
+Time: 656ms
+Built at: 03/11/2021 2:51:36 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-585697b8e7d787a09877.js    126 KiB  application  [emitted] [immutable]  application
+js/application-585697b8e7d787a09877.js.map    140 KiB  application  [emitted] [dev]        application
+           js/home-1ce52e0f3bfd26a3c8ae.js   4.67 KiB         home  [emitted] [immutable]  home
+       js/home-1ce52e0f3bfd26a3c8ae.js.map   4.55 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-585697b8e7d787a09877.js js/application-585697b8e7d787a09877.js.map
+Entrypoint home = js/home-1ce52e0f3bfd26a3c8ae.js js/home-1ce52e0f3bfd26a3c8ae.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.39 KiB {application} [built]
+[./app/javascript/packs/home.js] 829 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1634.5ms | Allocations: 5320)
+Completed 200 OK in 1636ms (Views: 1635.0ms | Allocations: 5694)
+
+
+Started GET "/" for ::1 at 2021-03-11 14:55:20 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 2.4ms | Allocations: 587)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 28b54d9d0cadd0cf1da0
+Version: webpack 4.46.0
+Time: 752ms
+Built at: 03/11/2021 2:55:22 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-aa2cc1cf40f0b396e961.js    126 KiB  application  [emitted] [immutable]  application
+js/application-aa2cc1cf40f0b396e961.js.map    140 KiB  application  [emitted] [dev]        application
+           js/home-1ce52e0f3bfd26a3c8ae.js   4.67 KiB         home  [emitted] [immutable]  home
+       js/home-1ce52e0f3bfd26a3c8ae.js.map   4.55 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-aa2cc1cf40f0b396e961.js js/application-aa2cc1cf40f0b396e961.js.map
+Entrypoint home = js/home-1ce52e0f3bfd26a3c8ae.js js/home-1ce52e0f3bfd26a3c8ae.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.5 KiB {application} [built]
+[./app/javascript/packs/home.js] 829 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1722.5ms | Allocations: 4793)
+Completed 200 OK in 1724ms (Views: 1723.4ms | Allocations: 5170)
+
+
+Started GET "/" for ::1 at 2021-03-11 14:56:33 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 2.1ms | Allocations: 586)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 90d2c44db1d97d153c2c
+Version: webpack 4.46.0
+Time: 628ms
+Built at: 03/11/2021 2:56:34 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b535c96a2e5d33bd4d48.js    126 KiB  application  [emitted] [immutable]  application
+js/application-b535c96a2e5d33bd4d48.js.map    140 KiB  application  [emitted] [dev]        application
+           js/home-1ce52e0f3bfd26a3c8ae.js   4.67 KiB         home  [emitted] [immutable]  home
+       js/home-1ce52e0f3bfd26a3c8ae.js.map   4.55 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-b535c96a2e5d33bd4d48.js js/application-b535c96a2e5d33bd4d48.js.map
+Entrypoint home = js/home-1ce52e0f3bfd26a3c8ae.js js/home-1ce52e0f3bfd26a3c8ae.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.39 KiB {application} [built]
+[./app/javascript/packs/home.js] 829 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1575.6ms | Allocations: 4788)
+Completed 200 OK in 1578ms (Views: 1576.7ms | Allocations: 5163)
+
+
+Started GET "/" for ::1 at 2021-03-11 14:57:31 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 8.8ms | Allocations: 588)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: fc7381a9bbf34d8c47df
+Version: webpack 4.46.0
+Time: 734ms
+Built at: 03/11/2021 2:57:33 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-2576de18c7c395de0aec.js    126 KiB  application  [emitted] [immutable]  application
+js/application-2576de18c7c395de0aec.js.map    140 KiB  application  [emitted] [dev]        application
+           js/home-1ce52e0f3bfd26a3c8ae.js   4.67 KiB         home  [emitted] [immutable]  home
+       js/home-1ce52e0f3bfd26a3c8ae.js.map   4.55 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-2576de18c7c395de0aec.js js/application-2576de18c7c395de0aec.js.map
+Entrypoint home = js/home-1ce52e0f3bfd26a3c8ae.js js/home-1ce52e0f3bfd26a3c8ae.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.41 KiB {application} [built]
+[./app/javascript/packs/home.js] 829 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1795.1ms | Allocations: 4869)
+Completed 200 OK in 1797ms (Views: 1796.0ms | Allocations: 5244)
+
+
+Started GET "/" for ::1 at 2021-03-11 15:00:37 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 2.4ms | Allocations: 586)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 2dc54b06429d45bf3073
+Version: webpack 4.46.0
+Time: 666ms
+Built at: 03/11/2021 3:00:39 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-f2c354bbcfa08ff367f5.js    126 KiB  application  [emitted] [immutable]  application
+js/application-f2c354bbcfa08ff367f5.js.map    141 KiB  application  [emitted] [dev]        application
+           js/home-1ce52e0f3bfd26a3c8ae.js   4.67 KiB         home  [emitted] [immutable]  home
+       js/home-1ce52e0f3bfd26a3c8ae.js.map   4.55 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-f2c354bbcfa08ff367f5.js js/application-f2c354bbcfa08ff367f5.js.map
+Entrypoint home = js/home-1ce52e0f3bfd26a3c8ae.js js/home-1ce52e0f3bfd26a3c8ae.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.96 KiB {application} [built]
+[./app/javascript/packs/home.js] 829 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1620.1ms | Allocations: 4863)
+Completed 200 OK in 1622ms (Views: 1621.1ms | Allocations: 5240)
+
+
+Started GET "/" for ::1 at 2021-03-11 15:01:55 -0600
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 70.7ms | Allocations: 24750)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 80.7ms | Allocations: 28062)
+Completed 200 OK in 89ms (Views: 83.0ms | ActiveRecord: 0.0ms | Allocations: 30645)
+
+
+Started GET "/" for ::1 at 2021-03-11 15:14:35 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.6ms | Allocations: 590)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 3533)
+Completed 200 OK in 20ms (Views: 6.5ms | Allocations: 3914)
+
+
+Started GET "/" for ::1 at 2021-03-11 16:02:30 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 5.1ms | Allocations: 586)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 9f19f18317c84237da95
+Version: webpack 4.46.0
+Time: 844ms
+Built at: 03/11/2021 4:02:33 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-93ee8218def5e54f1881.js    126 KiB  application  [emitted] [immutable]  application
+js/application-93ee8218def5e54f1881.js.map    141 KiB  application  [emitted] [dev]        application
+           js/home-1ce52e0f3bfd26a3c8ae.js   4.67 KiB         home  [emitted] [immutable]  home
+       js/home-1ce52e0f3bfd26a3c8ae.js.map   4.55 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-93ee8218def5e54f1881.js js/application-93ee8218def5e54f1881.js.map
+Entrypoint home = js/home-1ce52e0f3bfd26a3c8ae.js js/home-1ce52e0f3bfd26a3c8ae.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.95 KiB {application} [built]
+[./app/javascript/packs/home.js] 829 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 2442.8ms | Allocations: 4825)
+Completed 200 OK in 2446ms (Views: 2443.6ms | Allocations: 5203)
+
+
+Started GET "/" for ::1 at 2021-03-11 16:03:00 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 588)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 228afe29553e26370d1b
+Version: webpack 4.46.0
+Time: 674ms
+Built at: 03/11/2021 4:03:02 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-d8dae8025592740bf644.js    126 KiB  application  [emitted] [immutable]  application
+js/application-d8dae8025592740bf644.js.map    141 KiB  application  [emitted] [dev]        application
+           js/home-1ce52e0f3bfd26a3c8ae.js   4.67 KiB         home  [emitted] [immutable]  home
+       js/home-1ce52e0f3bfd26a3c8ae.js.map   4.55 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-d8dae8025592740bf644.js js/application-d8dae8025592740bf644.js.map
+Entrypoint home = js/home-1ce52e0f3bfd26a3c8ae.js js/home-1ce52e0f3bfd26a3c8ae.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.96 KiB {application} [built]
+[./app/javascript/packs/home.js] 829 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1652.5ms | Allocations: 4793)
+Completed 200 OK in 1654ms (Views: 1653.2ms | Allocations: 5168)
+
+
+Started GET "/" for ::1 at 2021-03-11 16:03:09 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 586)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 3527)
+Completed 200 OK in 8ms (Views: 7.5ms | Allocations: 3906)
+
+
+Started GET "/" for ::1 at 2021-03-11 16:08:19 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 590)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: e6ee50edd8de85682a26
+Version: webpack 4.46.0
+Time: 670ms
+Built at: 03/11/2021 4:08:21 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-3988aabff6ed4a62e96e.js    126 KiB  application  [emitted] [immutable]  application
+js/application-3988aabff6ed4a62e96e.js.map    141 KiB  application  [emitted] [dev]        application
+           js/home-1ce52e0f3bfd26a3c8ae.js   4.67 KiB         home  [emitted] [immutable]  home
+       js/home-1ce52e0f3bfd26a3c8ae.js.map   4.55 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-3988aabff6ed4a62e96e.js js/application-3988aabff6ed4a62e96e.js.map
+Entrypoint home = js/home-1ce52e0f3bfd26a3c8ae.js js/home-1ce52e0f3bfd26a3c8ae.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.96 KiB {application} [built]
+[./app/javascript/packs/home.js] 829 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1667.5ms | Allocations: 4798)
+Completed 200 OK in 1669ms (Views: 1668.2ms | Allocations: 5174)
+
+
+Started GET "/" for ::1 at 2021-03-11 16:16:33 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 586)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: d313694edf02225e8b8d
+Version: webpack 4.46.0
+Time: 699ms
+Built at: 03/11/2021 4:16:35 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-5b3463cbcd297cff1b01.js    126 KiB  application  [emitted] [immutable]  application
+js/application-5b3463cbcd297cff1b01.js.map    141 KiB  application  [emitted] [dev]        application
+           js/home-1ce52e0f3bfd26a3c8ae.js   4.67 KiB         home  [emitted] [immutable]  home
+       js/home-1ce52e0f3bfd26a3c8ae.js.map   4.55 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-5b3463cbcd297cff1b01.js js/application-5b3463cbcd297cff1b01.js.map
+Entrypoint home = js/home-1ce52e0f3bfd26a3c8ae.js js/home-1ce52e0f3bfd26a3c8ae.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.98 KiB {application} [built]
+[./app/javascript/packs/home.js] 829 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1663.8ms | Allocations: 4791)
+Completed 200 OK in 1665ms (Views: 1664.5ms | Allocations: 5165)
+
+
+Started GET "/" for ::1 at 2021-03-11 16:18:22 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.7ms | Allocations: 588)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 393905a82f52f6971b2a
+Version: webpack 4.46.0
+Time: 687ms
+Built at: 03/11/2021 4:18:23 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-034768e05a7a5d66085e.js    126 KiB  application  [emitted] [immutable]  application
+js/application-034768e05a7a5d66085e.js.map    141 KiB  application  [emitted] [dev]        application
+           js/home-1ce52e0f3bfd26a3c8ae.js   4.67 KiB         home  [emitted] [immutable]  home
+       js/home-1ce52e0f3bfd26a3c8ae.js.map   4.55 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-034768e05a7a5d66085e.js js/application-034768e05a7a5d66085e.js.map
+Entrypoint home = js/home-1ce52e0f3bfd26a3c8ae.js js/home-1ce52e0f3bfd26a3c8ae.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.98 KiB {application} [built]
+[./app/javascript/packs/home.js] 829 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1653.2ms | Allocations: 4794)
+Completed 200 OK in 1655ms (Views: 1654.2ms | Allocations: 5168)
+
+
+Started GET "/" for ::1 at 2021-03-11 16:22:06 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 727)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 48e75bb0d7246db8190d
+Version: webpack 4.46.0
+Time: 698ms
+Built at: 03/11/2021 4:22:08 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-8e16e7cbca3a41a734ee.js    126 KiB  application  [emitted] [immutable]  application
+js/application-8e16e7cbca3a41a734ee.js.map    141 KiB  application  [emitted] [dev]        application
+           js/home-1ce52e0f3bfd26a3c8ae.js   4.67 KiB         home  [emitted] [immutable]  home
+       js/home-1ce52e0f3bfd26a3c8ae.js.map   4.55 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-8e16e7cbca3a41a734ee.js js/application-8e16e7cbca3a41a734ee.js.map
+Entrypoint home = js/home-1ce52e0f3bfd26a3c8ae.js js/home-1ce52e0f3bfd26a3c8ae.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 2.01 KiB {application} [built]
+[./app/javascript/packs/home.js] 829 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1735.3ms | Allocations: 5107)
+Completed 200 OK in 1741ms (Views: 1739.4ms | Allocations: 6192)
+
+
+Started GET "/" for ::1 at 2021-03-11 16:24:05 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 570)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 3512)
+Completed 200 OK in 7ms (Views: 6.6ms | Allocations: 3889)
+
+
+Started GET "/" for ::1 at 2021-03-11 16:27:14 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 2.3ms | Allocations: 568)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 0718181235bab8e01a34
+Version: webpack 4.46.0
+Time: 699ms
+Built at: 03/11/2021 4:27:16 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-dd6ae6cba4e4cd434f8b.js    125 KiB  application  [emitted] [immutable]  application
+js/application-dd6ae6cba4e4cd434f8b.js.map    140 KiB  application  [emitted] [dev]        application
+           js/home-1ce52e0f3bfd26a3c8ae.js   4.67 KiB         home  [emitted] [immutable]  home
+       js/home-1ce52e0f3bfd26a3c8ae.js.map   4.55 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-dd6ae6cba4e4cd434f8b.js js/application-dd6ae6cba4e4cd434f8b.js.map
+Entrypoint home = js/home-1ce52e0f3bfd26a3c8ae.js js/home-1ce52e0f3bfd26a3c8ae.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.21 KiB {application} [built]
+[./app/javascript/packs/home.js] 829 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1644.4ms | Allocations: 4773)
+Completed 200 OK in 1647ms (Views: 1645.4ms | Allocations: 5149)
+
+
+Started GET "/" for ::1 at 2021-03-11 16:33:01 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 566)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 0a04c5c05f38c444dfaa
+Version: webpack 4.46.0
+Time: 692ms
+Built at: 03/11/2021 4:33:03 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-cde5bd6a2ef8cba29ac7.js    126 KiB  application  [emitted] [immutable]  application
+js/application-cde5bd6a2ef8cba29ac7.js.map    140 KiB  application  [emitted] [dev]        application
+           js/home-1ce52e0f3bfd26a3c8ae.js   4.67 KiB         home  [emitted] [immutable]  home
+       js/home-1ce52e0f3bfd26a3c8ae.js.map   4.55 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-cde5bd6a2ef8cba29ac7.js js/application-cde5bd6a2ef8cba29ac7.js.map
+Entrypoint home = js/home-1ce52e0f3bfd26a3c8ae.js js/home-1ce52e0f3bfd26a3c8ae.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.29 KiB {application} [built]
+[./app/javascript/packs/home.js] 829 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1660.1ms | Allocations: 4775)
+Completed 200 OK in 1662ms (Views: 1661.2ms | Allocations: 5149)
+
+
+Started GET "/" for ::1 at 2021-03-11 16:33:26 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.9ms | Allocations: 566)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 42d4465ad553a7264fc8
+Version: webpack 4.46.0
+Time: 793ms
+Built at: 03/11/2021 4:33:28 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-f934d1e826229c089605.js    126 KiB  application  [emitted] [immutable]  application
+js/application-f934d1e826229c089605.js.map    140 KiB  application  [emitted] [dev]        application
+           js/home-1ce52e0f3bfd26a3c8ae.js   4.67 KiB         home  [emitted] [immutable]  home
+       js/home-1ce52e0f3bfd26a3c8ae.js.map   4.55 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-f934d1e826229c089605.js js/application-f934d1e826229c089605.js.map
+Entrypoint home = js/home-1ce52e0f3bfd26a3c8ae.js js/home-1ce52e0f3bfd26a3c8ae.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.32 KiB {application} [built]
+[./app/javascript/packs/home.js] 829 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1753.1ms | Allocations: 4771)
+Completed 200 OK in 1755ms (Views: 1754.2ms | Allocations: 5145)
+
+
+Started GET "/" for ::1 at 2021-03-11 16:34:15 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 568)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 061ee2dd3b1153274ec9
+Version: webpack 4.46.0
+Time: 667ms
+Built at: 03/11/2021 4:34:17 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-1508786f3433a6acd6a8.js    126 KiB  application  [emitted] [immutable]  application
+js/application-1508786f3433a6acd6a8.js.map    140 KiB  application  [emitted] [dev]        application
+           js/home-1ce52e0f3bfd26a3c8ae.js   4.67 KiB         home  [emitted] [immutable]  home
+       js/home-1ce52e0f3bfd26a3c8ae.js.map   4.55 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-1508786f3433a6acd6a8.js js/application-1508786f3433a6acd6a8.js.map
+Entrypoint home = js/home-1ce52e0f3bfd26a3c8ae.js js/home-1ce52e0f3bfd26a3c8ae.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.32 KiB {application} [built]
+[./app/javascript/packs/home.js] 829 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1647.8ms | Allocations: 4773)
+Completed 200 OK in 1649ms (Views: 1648.5ms | Allocations: 5148)
+
+
+Started GET "/" for ::1 at 2021-03-11 16:34:25 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.7ms | Allocations: 570)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 3513)
+Completed 200 OK in 8ms (Views: 7.0ms | Allocations: 3892)
+
+
+Started GET "/" for ::1 at 2021-03-11 16:37:17 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 2.1ms | Allocations: 568)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: dfeb6cb97bd13005af2e
+Version: webpack 4.46.0
+Time: 663ms
+Built at: 03/11/2021 4:37:19 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-52340d4c1eb40967c264.js    126 KiB  application  [emitted] [immutable]  application
+js/application-52340d4c1eb40967c264.js.map    140 KiB  application  [emitted] [dev]        application
+           js/home-1ce52e0f3bfd26a3c8ae.js   4.67 KiB         home  [emitted] [immutable]  home
+       js/home-1ce52e0f3bfd26a3c8ae.js.map   4.55 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-52340d4c1eb40967c264.js js/application-52340d4c1eb40967c264.js.map
+Entrypoint home = js/home-1ce52e0f3bfd26a3c8ae.js js/home-1ce52e0f3bfd26a3c8ae.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.39 KiB {application} [built]
+[./app/javascript/packs/home.js] 829 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1623.1ms | Allocations: 4844)
+Completed 200 OK in 1625ms (Views: 1624.2ms | Allocations: 5220)
+
+
+Started GET "/" for ::1 at 2021-03-11 16:38:44 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 2.2ms | Allocations: 568)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 0b5f1b06f51737745b2d
+Version: webpack 4.46.0
+Time: 670ms
+Built at: 03/11/2021 4:38:45 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-bbd14ee68b1abc16fd2b.js    126 KiB  application  [emitted] [immutable]  application
+js/application-bbd14ee68b1abc16fd2b.js.map    140 KiB  application  [emitted] [dev]        application
+           js/home-1ce52e0f3bfd26a3c8ae.js   4.67 KiB         home  [emitted] [immutable]  home
+       js/home-1ce52e0f3bfd26a3c8ae.js.map   4.55 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-bbd14ee68b1abc16fd2b.js js/application-bbd14ee68b1abc16fd2b.js.map
+Entrypoint home = js/home-1ce52e0f3bfd26a3c8ae.js js/home-1ce52e0f3bfd26a3c8ae.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.47 KiB {application} [built]
+[./app/javascript/packs/home.js] 829 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1611.1ms | Allocations: 4771)
+Completed 200 OK in 1613ms (Views: 1612.0ms | Allocations: 5145)
+
+
+Started GET "/" for ::1 at 2021-03-11 16:38:57 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 566)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 3505)
+Completed 200 OK in 8ms (Views: 6.7ms | Allocations: 3879)
+
+
+Started GET "/" for ::1 at 2021-03-11 16:40:04 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.8ms | Allocations: 570)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 3512)
+Completed 200 OK in 8ms (Views: 7.2ms | Allocations: 3888)
+
+
+Started GET "/" for ::1 at 2021-03-11 16:40:48 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.9ms | Allocations: 568)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 6b2f5a3e32e1393cc57b
+Version: webpack 4.46.0
+Time: 741ms
+Built at: 03/11/2021 4:40:49 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-d70e099ac3825059e42d.js    126 KiB  application  [emitted] [immutable]  application
+js/application-d70e099ac3825059e42d.js.map    140 KiB  application  [emitted] [dev]        application
+           js/home-1ce52e0f3bfd26a3c8ae.js   4.67 KiB         home  [emitted] [immutable]  home
+       js/home-1ce52e0f3bfd26a3c8ae.js.map   4.55 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-d70e099ac3825059e42d.js js/application-d70e099ac3825059e42d.js.map
+Entrypoint home = js/home-1ce52e0f3bfd26a3c8ae.js js/home-1ce52e0f3bfd26a3c8ae.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.47 KiB {application} [built]
+[./app/javascript/packs/home.js] 829 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1739.6ms | Allocations: 4842)
+Completed 200 OK in 1742ms (Views: 1740.7ms | Allocations: 5218)
+
+
+Started GET "/" for ::1 at 2021-03-11 16:41:15 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.9ms | Allocations: 568)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 3474d5ecb12e6c454a48
+Version: webpack 4.46.0
+Time: 790ms
+Built at: 03/11/2021 4:41:17 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-32077ec8ac8236d00d18.js    126 KiB  application  [emitted] [immutable]  application
+js/application-32077ec8ac8236d00d18.js.map    140 KiB  application  [emitted] [dev]        application
+           js/home-1ce52e0f3bfd26a3c8ae.js   4.67 KiB         home  [emitted] [immutable]  home
+       js/home-1ce52e0f3bfd26a3c8ae.js.map   4.55 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-32077ec8ac8236d00d18.js js/application-32077ec8ac8236d00d18.js.map
+Entrypoint home = js/home-1ce52e0f3bfd26a3c8ae.js js/home-1ce52e0f3bfd26a3c8ae.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.47 KiB {application} [built]
+[./app/javascript/packs/home.js] 829 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1740.5ms | Allocations: 4774)
+Completed 200 OK in 1743ms (Views: 1741.6ms | Allocations: 5150)
+
+
+Started GET "/" for ::1 at 2021-03-11 16:42:01 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 566)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 84dddae3857c8139fa7e
+Version: webpack 4.46.0
+Time: 713ms
+Built at: 03/11/2021 4:42:02 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-03d5f78f011ec6a25487.js    126 KiB  application  [emitted] [immutable]  application
+js/application-03d5f78f011ec6a25487.js.map    140 KiB  application  [emitted] [dev]        application
+           js/home-1ce52e0f3bfd26a3c8ae.js   4.67 KiB         home  [emitted] [immutable]  home
+       js/home-1ce52e0f3bfd26a3c8ae.js.map   4.55 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-03d5f78f011ec6a25487.js js/application-03d5f78f011ec6a25487.js.map
+Entrypoint home = js/home-1ce52e0f3bfd26a3c8ae.js js/home-1ce52e0f3bfd26a3c8ae.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.49 KiB {application} [built]
+[./app/javascript/packs/home.js] 829 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1733.1ms | Allocations: 4772)
+Completed 200 OK in 1736ms (Views: 1734.3ms | Allocations: 5146)
+
+
+Started GET "/" for ::1 at 2021-03-11 16:42:52 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.9ms | Allocations: 566)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 26299c2d2a1153820979
+Version: webpack 4.46.0
+Time: 692ms
+Built at: 03/11/2021 4:42:54 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-342900974cb681f5f18e.js    126 KiB  application  [emitted] [immutable]  application
+js/application-342900974cb681f5f18e.js.map    140 KiB  application  [emitted] [dev]        application
+           js/home-1ce52e0f3bfd26a3c8ae.js   4.67 KiB         home  [emitted] [immutable]  home
+       js/home-1ce52e0f3bfd26a3c8ae.js.map   4.55 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-342900974cb681f5f18e.js js/application-342900974cb681f5f18e.js.map
+Entrypoint home = js/home-1ce52e0f3bfd26a3c8ae.js js/home-1ce52e0f3bfd26a3c8ae.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.44 KiB {application} [built]
+[./app/javascript/packs/home.js] 829 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1647.3ms | Allocations: 4769)
+Completed 200 OK in 1649ms (Views: 1648.1ms | Allocations: 5143)
+
+
+Started GET "/" for ::1 at 2021-03-11 16:45:36 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.9ms | Allocations: 729)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 5b239b8f942b792b7f22
+Version: webpack 4.46.0
+Time: 655ms
+Built at: 03/11/2021 4:45:38 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-cdbba42f39c0cb5a007c.js    126 KiB  application  [emitted] [immutable]  application
+js/application-cdbba42f39c0cb5a007c.js.map    140 KiB  application  [emitted] [dev]        application
+           js/home-1ce52e0f3bfd26a3c8ae.js   4.67 KiB         home  [emitted] [immutable]  home
+       js/home-1ce52e0f3bfd26a3c8ae.js.map   4.55 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-cdbba42f39c0cb5a007c.js js/application-cdbba42f39c0cb5a007c.js.map
+Entrypoint home = js/home-1ce52e0f3bfd26a3c8ae.js js/home-1ce52e0f3bfd26a3c8ae.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.52 KiB {application} [built]
+[./app/javascript/packs/home.js] 829 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1656.5ms | Allocations: 17833)
+Completed 200 OK in 1661ms (Views: 1658.9ms | Allocations: 18918)
+
+
+Started GET "/" for ::1 at 2021-03-11 16:46:02 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.8ms | Allocations: 568)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 29.4ms | Allocations: 15736)
+Completed 200 OK in 32ms (Views: 30.3ms | Allocations: 16112)
+
+
+Started GET "/" for ::1 at 2021-03-11 16:46:24 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.8ms | Allocations: 566)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 88155ae699a155ba806f
+Version: webpack 4.46.0
+Time: 688ms
+Built at: 03/11/2021 4:46:25 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-1aa5834b2d05b7494768.js    126 KiB  application  [emitted] [immutable]  application
+js/application-1aa5834b2d05b7494768.js.map    140 KiB  application  [emitted] [dev]        application
+           js/home-1ce52e0f3bfd26a3c8ae.js   4.67 KiB         home  [emitted] [immutable]  home
+       js/home-1ce52e0f3bfd26a3c8ae.js.map   4.55 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-1aa5834b2d05b7494768.js js/application-1aa5834b2d05b7494768.js.map
+Entrypoint home = js/home-1ce52e0f3bfd26a3c8ae.js js/home-1ce52e0f3bfd26a3c8ae.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.51 KiB {application} [built]
+[./app/javascript/packs/home.js] 829 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1638.3ms | Allocations: 4769)
+Completed 200 OK in 1640ms (Views: 1639.3ms | Allocations: 5144)
+
+
+Started GET "/" for ::1 at 2021-03-11 16:46:40 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.9ms | Allocations: 570)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 3553)
+Completed 200 OK in 9ms (Views: 7.9ms | Allocations: 3929)
+
+
+Started GET "/" for ::1 at 2021-03-11 16:53:37 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.7ms | Allocations: 566)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 8736edf635d8bb8fe033
+Version: webpack 4.46.0
+Time: 747ms
+Built at: 03/11/2021 4:53:39 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-1691186df7fa9faa7378.js    125 KiB  application  [emitted] [immutable]  application
+js/application-1691186df7fa9faa7378.js.map    139 KiB  application  [emitted] [dev]        application
+           js/home-1ce52e0f3bfd26a3c8ae.js   4.67 KiB         home  [emitted] [immutable]  home
+       js/home-1ce52e0f3bfd26a3c8ae.js.map   4.55 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-1691186df7fa9faa7378.js js/application-1691186df7fa9faa7378.js.map
+Entrypoint home = js/home-1ce52e0f3bfd26a3c8ae.js js/home-1ce52e0f3bfd26a3c8ae.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.02 KiB {application} [built]
+[./app/javascript/packs/home.js] 829 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 2144.7ms | Allocations: 4843)
+Completed 200 OK in 2147ms (Views: 2145.5ms | Allocations: 5218)
+
+
+Started GET "/" for ::1 at 2021-03-11 16:54:31 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.8ms | Allocations: 569)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: f310391ab0a926baea33
+Version: webpack 4.46.0
+Time: 717ms
+Built at: 03/11/2021 4:54:32 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b7f40f9bfc859f7c55d6.js    125 KiB  application  [emitted] [immutable]  application
+js/application-b7f40f9bfc859f7c55d6.js.map    139 KiB  application  [emitted] [dev]        application
+           js/home-1ce52e0f3bfd26a3c8ae.js   4.67 KiB         home  [emitted] [immutable]  home
+       js/home-1ce52e0f3bfd26a3c8ae.js.map   4.55 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-b7f40f9bfc859f7c55d6.js js/application-b7f40f9bfc859f7c55d6.js.map
+Entrypoint home = js/home-1ce52e0f3bfd26a3c8ae.js js/home-1ce52e0f3bfd26a3c8ae.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.03 KiB {application} [built]
+[./app/javascript/packs/home.js] 829 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1720.9ms | Allocations: 4775)
+Completed 200 OK in 1723ms (Views: 1722.1ms | Allocations: 5150)
+
+
+Started GET "/" for ::1 at 2021-03-11 16:54:44 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 566)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 8736edf635d8bb8fe033
+Version: webpack 4.46.0
+Time: 668ms
+Built at: 03/11/2021 4:54:45 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-1691186df7fa9faa7378.js    125 KiB  application  [emitted] [immutable]  application
+js/application-1691186df7fa9faa7378.js.map    139 KiB  application  [emitted] [dev]        application
+           js/home-1ce52e0f3bfd26a3c8ae.js   4.67 KiB         home  [emitted] [immutable]  home
+       js/home-1ce52e0f3bfd26a3c8ae.js.map   4.55 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-1691186df7fa9faa7378.js js/application-1691186df7fa9faa7378.js.map
+Entrypoint home = js/home-1ce52e0f3bfd26a3c8ae.js js/home-1ce52e0f3bfd26a3c8ae.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.02 KiB {application} [built]
+[./app/javascript/packs/home.js] 829 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1678.6ms | Allocations: 4840)
+Completed 200 OK in 1681ms (Views: 1679.7ms | Allocations: 5214)
+
+
+Started GET "/" for ::1 at 2021-03-11 16:55:25 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 2.7ms | Allocations: 570)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 5b36b8fce903135e8e73
+Version: webpack 4.46.0
+Time: 715ms
+Built at: 03/11/2021 4:55:27 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-1fa571b0be8ee6aaafbf.js    125 KiB  application  [emitted] [immutable]  application
+js/application-1fa571b0be8ee6aaafbf.js.map    139 KiB  application  [emitted] [dev]        application
+           js/home-1ce52e0f3bfd26a3c8ae.js   4.67 KiB         home  [emitted] [immutable]  home
+       js/home-1ce52e0f3bfd26a3c8ae.js.map   4.55 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-1fa571b0be8ee6aaafbf.js js/application-1fa571b0be8ee6aaafbf.js.map
+Entrypoint home = js/home-1ce52e0f3bfd26a3c8ae.js js/home-1ce52e0f3bfd26a3c8ae.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.03 KiB {application} [built]
+[./app/javascript/packs/home.js] 829 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1685.6ms | Allocations: 4779)
+Completed 200 OK in 1688ms (Views: 1686.6ms | Allocations: 5155)
+
+
+Started GET "/" for ::1 at 2021-03-11 16:56:00 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 2.0ms | Allocations: 568)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 34a33b2935d75a38f408
+Version: webpack 4.46.0
+Time: 713ms
+Built at: 03/11/2021 4:56:01 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-7fea55f25dde8f55f42c.js    125 KiB  application  [emitted] [immutable]  application
+js/application-7fea55f25dde8f55f42c.js.map    139 KiB  application  [emitted] [dev]        application
+           js/home-1ce52e0f3bfd26a3c8ae.js   4.67 KiB         home  [emitted] [immutable]  home
+       js/home-1ce52e0f3bfd26a3c8ae.js.map   4.55 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-7fea55f25dde8f55f42c.js js/application-7fea55f25dde8f55f42c.js.map
+Entrypoint home = js/home-1ce52e0f3bfd26a3c8ae.js js/home-1ce52e0f3bfd26a3c8ae.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.04 KiB {application} [built]
+[./app/javascript/packs/home.js] 829 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1678.9ms | Allocations: 4771)
+Completed 200 OK in 1681ms (Views: 1679.8ms | Allocations: 5147)
+
+
+Started GET "/" for ::1 at 2021-03-11 16:56:18 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.6ms | Allocations: 566)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 1eb4dbf39e766a6661b1
+Version: webpack 4.46.0
+Time: 684ms
+Built at: 03/11/2021 4:56:20 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-a9be8f15ee7f5150e947.js    125 KiB  application  [emitted] [immutable]  application
+js/application-a9be8f15ee7f5150e947.js.map    139 KiB  application  [emitted] [dev]        application
+           js/home-1ce52e0f3bfd26a3c8ae.js   4.67 KiB         home  [emitted] [immutable]  home
+       js/home-1ce52e0f3bfd26a3c8ae.js.map   4.55 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-a9be8f15ee7f5150e947.js js/application-a9be8f15ee7f5150e947.js.map
+Entrypoint home = js/home-1ce52e0f3bfd26a3c8ae.js js/home-1ce52e0f3bfd26a3c8ae.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.06 KiB {application} [built]
+[./app/javascript/packs/home.js] 829 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1635.3ms | Allocations: 4842)
+Completed 200 OK in 1637ms (Views: 1636.1ms | Allocations: 5218)
+
+
+Started GET "/" for ::1 at 2021-03-11 16:59:45 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.9ms | Allocations: 727)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 4ec55bb626d72b9d4eea
+Version: webpack 4.46.0
+Time: 679ms
+Built at: 03/11/2021 4:59:47 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-95ee4c140b1e6c0027bc.js    125 KiB  application  [emitted] [immutable]  application
+js/application-95ee4c140b1e6c0027bc.js.map    139 KiB  application  [emitted] [dev]        application
+           js/home-1ce52e0f3bfd26a3c8ae.js   4.67 KiB         home  [emitted] [immutable]  home
+       js/home-1ce52e0f3bfd26a3c8ae.js.map   4.55 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-95ee4c140b1e6c0027bc.js js/application-95ee4c140b1e6c0027bc.js.map
+Entrypoint home = js/home-1ce52e0f3bfd26a3c8ae.js js/home-1ce52e0f3bfd26a3c8ae.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.05 KiB {application} [built]
+[./app/javascript/packs/home.js] 829 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1741.9ms | Allocations: 15579)
+Completed 200 OK in 1748ms (Views: 1745.7ms | Allocations: 16664)
+
+
+Started GET "/" for ::1 at 2021-03-11 17:02:08 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.9ms | Allocations: 569)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 26.4ms | Allocations: 14370)
+Completed 200 OK in 28ms (Views: 27.2ms | Allocations: 14746)
+
+
+Started GET "/" for ::1 at 2021-03-11 17:06:00 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 725)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 3839)
+Completed 200 OK in 11ms (Views: 9.3ms | Allocations: 4926)
+
+
+Started GET "/" for ::1 at 2021-03-11 17:12:55 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 570)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: a12127c69b640d9e945c
+Version: webpack 4.46.0
+Time: 807ms
+Built at: 03/11/2021 5:12:57 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-cb2d8154e56430d96dd6.js    125 KiB  application  [emitted] [immutable]  application
+js/application-cb2d8154e56430d96dd6.js.map    139 KiB  application  [emitted] [dev]        application
+           js/home-1ce52e0f3bfd26a3c8ae.js   4.67 KiB         home  [emitted] [immutable]  home
+       js/home-1ce52e0f3bfd26a3c8ae.js.map   4.55 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-cb2d8154e56430d96dd6.js js/application-cb2d8154e56430d96dd6.js.map
+Entrypoint home = js/home-1ce52e0f3bfd26a3c8ae.js js/home-1ce52e0f3bfd26a3c8ae.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.07 KiB {application} [built]
+[./app/javascript/packs/home.js] 829 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1954.3ms | Allocations: 4787)
+Completed 200 OK in 1960ms (Views: 1955.0ms | Allocations: 5164)
+
+
+Started GET "/" for ::1 at 2021-03-11 17:13:41 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.8ms | Allocations: 568)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 6865a7fe31ac27f4e7a9
+Version: webpack 4.46.0
+Time: 729ms
+Built at: 03/11/2021 5:13:43 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-49d0f37e16c150b0d6c0.js    125 KiB  application  [emitted] [immutable]  application
+js/application-49d0f37e16c150b0d6c0.js.map    140 KiB  application  [emitted] [dev]        application
+           js/home-1ce52e0f3bfd26a3c8ae.js   4.67 KiB         home  [emitted] [immutable]  home
+       js/home-1ce52e0f3bfd26a3c8ae.js.map   4.55 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-49d0f37e16c150b0d6c0.js js/application-49d0f37e16c150b0d6c0.js.map
+Entrypoint home = js/home-1ce52e0f3bfd26a3c8ae.js js/home-1ce52e0f3bfd26a3c8ae.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1.1 KiB {application} [built]
+[./app/javascript/packs/home.js] 829 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1704.0ms | Allocations: 4777)
+Completed 200 OK in 1706ms (Views: 1705.0ms | Allocations: 5151)
+
+
+Started GET "/" for ::1 at 2021-03-11 17:15:27 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 2.5ms | Allocations: 725)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 33.1ms | Allocations: 13748)
+Completed 200 OK in 37ms (Views: 35.5ms | Allocations: 14834)
+
+
+Started GET "/" for ::1 at 2021-03-11 17:16:19 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 2.2ms | Allocations: 723)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 3839)
+Completed 200 OK in 14ms (Views: 12.4ms | Allocations: 4925)
+
+
+Started GET "/" for ::1 at 2021-03-11 17:16:23 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 569)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 3508)
+Completed 200 OK in 9ms (Views: 7.7ms | Allocations: 3885)
+
+
+Started GET "/" for ::1 at 2021-03-11 17:20:24 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 2.0ms | Allocations: 566)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 3e285e2837c809168a99
+Version: webpack 4.46.0
+Time: 722ms
+Built at: 03/11/2021 5:20:26 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-db89c95e99004199f9ca.js    125 KiB  application  [emitted] [immutable]  application
+js/application-db89c95e99004199f9ca.js.map    139 KiB  application  [emitted] [dev]        application
+           js/home-1ce52e0f3bfd26a3c8ae.js   4.67 KiB         home  [emitted] [immutable]  home
+       js/home-1ce52e0f3bfd26a3c8ae.js.map   4.55 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-db89c95e99004199f9ca.js js/application-db89c95e99004199f9ca.js.map
+Entrypoint home = js/home-1ce52e0f3bfd26a3c8ae.js js/home-1ce52e0f3bfd26a3c8ae.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 1000 bytes {application} [built]
+[./app/javascript/packs/home.js] 829 bytes {home} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1877.6ms | Allocations: 14705)
+Completed 200 OK in 1879ms (Views: 1878.5ms | Allocations: 15079)
+
+
+Started GET "/" for ::1 at 2021-03-11 17:22:10 -0600
+Processing by HomeController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (Duration: 2.0ms | Allocations: 568)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luis/Documents/Rails/environment/frontend-test/public/packs
+[Webpacker] Hash: 2360785c80d12a60224f
+Version: webpack 4.46.0
+Time: 737ms
+Built at: 03/11/2021 5:22:12 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-6d32cf07ec927001214c.js    126 KiB  application  [emitted] [immutable]  application
+js/application-6d32cf07ec927001214c.js.map    140 KiB  application  [emitted] [dev]        application
+           js/home-022ed978ffb7bb2159d6.js   4.23 KiB         home  [emitted] [immutable]  home
+       js/home-022ed978ffb7bb2159d6.js.map   3.99 KiB         home  [emitted] [dev]        home
+                             manifest.json  654 bytes               [emitted]              
+Entrypoint application = js/application-6d32cf07ec927001214c.js js/application-6d32cf07ec927001214c.js.map
+Entrypoint home = js/home-022ed978ffb7bb2159d6.js js/home-022ed978ffb7bb2159d6.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 940 bytes {application} [built]
+[./app/javascript/packs/home.js] 385 bytes {home} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1812.5ms | Allocations: 14736)
+Completed 200 OK in 1814ms (Views: 1813.2ms | Allocations: 15111)
+
+
