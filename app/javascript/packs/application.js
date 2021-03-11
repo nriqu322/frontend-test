@@ -12,4 +12,4 @@ Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
 
-//= require_tree
+console.log('Hello from application.js')
