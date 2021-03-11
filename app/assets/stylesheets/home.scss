@@ -140,14 +140,18 @@ header {
 .add-margin {
   margin-top: 80px;
 }
+
 .signup {
   background: #495664;
   text-align: center;
+}
+
+.signup-info {
   padding-top: 63px;
 }
 
 .signup-info h2 {
-  width: 268px;
+  // max-width: 268px;
   height: 77px;
   font-weight: 500;
   font-size: 40px;
@@ -157,12 +161,12 @@ header {
 }
 
 .signup-info h3 {
-  width: 274px;
+  // max-width: 274px;
   height: 76px;
   font-weight: 400;
   font-size: 18px;
   line-height: 36px;
-  margin: 15px auto 0px;
+  margin: 15px 50px 0 51px;
 }
 
 .signup-info button {
@@ -174,10 +178,10 @@ header {
   line-height: 24px;
   color: #fff;
   background: #0b1113;
-  margin: 53px auto 62px;
+  margin: 52px auto 62px;
 }
 
-.bottom-margin {
+.bottom-padding {
   padding-bottom: 117px;
 }
 
@@ -225,6 +229,76 @@ header {
   .hero button {
     margin: 27px 0 0 24px;
   }
+
+  .why-us {
+    margin-top: 173px;
+  }
+
+  .why-us h2 {
+    margin-bottom: 64px;
+  }
+
+  .whyus-content {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1312px;
+    margin: auto;
+  }
+
+  .whyus-description {
+    margin-bottom: 87px;
+  }
+
+  .add-margin {
+    margin-top: 0;
+  }
+
+  .signup {
+    text-align: left;
+  }
+
+  .signup-info {
+    max-width: 480px;
+    padding-top: 64px;
+  }
+
+  .signup-info h2 {
+    // max-width: 480px;
+    margin-left: 0;
+    margin-right: 0;
+    height: 60px;
+  }
+  .signup-info h3 {
+    font-size: 24px;
+    // max-width: 480px;
+    margin: 32px 0 0;
+  }
+
+  .signup-info button {
+    margin-top: 32px;
+    margin-bottom: 81px;
+  }
+
+  .signup-container {
+    display: flex;
+    margin-left: 64px;
+  }
+
+  .last-img {
+    width: 822px;
+    background: linear-gradient(to bottom, rgba(11, 17, 19, 0.36), rgba(11, 17, 19, 0.36)) , url(cta_tea_cup_desktop.jpg);
+    background-repeat: no-repeat;
+    // background-size: cover;
+    // background-position: right;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .hero-img {
+    width: 229px;
+    height: 231px;
+    margin-top: 89px;
+  }
 }
 
 @media screen and (min-width: 1180px) {
@@ -233,6 +307,18 @@ header {
     height: 512px;
     margin-right: 24px;
     margin-top: 69px;
+  }
+}
+
+@media screen and (min-width: 1365px) {
+  .signup-container {
+    position: relative;
+  }
+
+  .last-img {
+    position: absolute;
+    right: 0;
+    min-height: 387px;
   }
 }
 
@@ -246,6 +332,7 @@ header {
     font-size: 24px;
     padding-left: 0;
   }
+
   .hero-img {
     width: 505px;
     height: 512px;
